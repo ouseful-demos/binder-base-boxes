@@ -17,7 +17,7 @@ To pull the contents from a particular branch of a repo `http://github.com/USER/
 https://mybinder.org/v2/gh/ouseful-demos/binder-base-boxes/BASEBOXBRANCH/?urlpath=git-pull?repo=https://github.com/USER/REPO%26amp%3Bbranch=BRANCH
 ```
 
-*Note the escpaing on the `&` conjunction that keeps it inside the scope of the `git-pull?repo` phrase.*
+*Note the escaping on the `&` conjunction that keeps it inside the scope of the `git-pull?repo` phrase.*
 
 To pull the contents from a particular branch of a repo `http://github.com/USER/REPO/tree/BRANCH` and launch into a particular notebook, use a MyBinder URL of the form:
 
