@@ -39,4 +39,4 @@ https://mybinder.org/v2/gh/ouseful-demos/binder-base-boxes/authoring/?urlpath=gi
 
 Or launch into a speccific example notebook:
 
-https://mybinder.org/v2/gh/ouseful-demos/binder-base-boxes/music/?urlpath=git-pull?repo=https://github.com/psychemedia/showntell%26amp%3BsubPath=index_simple_authoring.ipynb
+https://mybinder.org/v2/gh/ouseful-demos/binder-base-boxes/authoring/?urlpath=git-pull?repo=https://github.com/psychemedia/showntell%26amp%3BsubPath=index_simple_authoring.ipynb
