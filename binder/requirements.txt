@@ -2,4 +2,4 @@
 # to pull in notebooks from another repo
 nbgitpuller
 
-#Base box additional requirements below here
+#Base box additional Python package requirements below here
