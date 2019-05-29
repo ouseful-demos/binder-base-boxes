@@ -37,6 +37,6 @@ Example notebooks:
 
 https://mybinder.org/v2/gh/ouseful-demos/binder-base-boxes/authoring/?urlpath=git-pull?repo=https://github.com/psychemedia/showntell
 
-Or launch into a speccific example notebook:
+Or launch into a specific example notebook:
 
 https://mybinder.org/v2/gh/ouseful-demos/binder-base-boxes/authoring/?urlpath=git-pull?repo=https://github.com/psychemedia/showntell%26amp%3BsubPath=index_simple_authoring.ipynb
