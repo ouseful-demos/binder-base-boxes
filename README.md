@@ -9,4 +9,12 @@ Read more: [Feeding a MyBinder Container Built From One Github Repository With t
 
 ---
 
+`music`
 
+This box contains various Python packages that support the creation of notebooks relevant to topics in *music*.
+
+Example notebooks:
+
+https://mybinder.org/v2/gh/ouseful-demos/binder-base-boxes/music/?urlpath=git-pull?repo=https://github.com/psychemedia/showntell%26amp%3Bbranch=music
+
+Note that to pull from the branch we need to properly escape the `&` conjunction so that it remains within the scope of the `git-pull?` clause.
