@@ -15,7 +15,7 @@ seaborn
 
 #Music packages
 
-#Issue with PyYaml dependency
+#Issue with PyYaml dependency - https://github.com/yaml/pyyaml/issues/126
 pyyaml==3.13
 
 music21
