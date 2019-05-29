@@ -7,7 +7,7 @@ python3 -m nltk.downloader punkt
 
 #Example of loading a spacy model
 python -m spacy download en_core_web_sm
-python -m spacy download custom_ner_model
+
 
 #Example of loading bits and pieces from cltk
 python -c "from cltk.corpus.utils.importer import CorpusImporter; CorpusImporter('latin').import_corpus('latin_text_latin_library')"
