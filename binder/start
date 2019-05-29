@@ -1,0 +1,7 @@
+#!/bin/bash
+# Commands to be run as an entrypoint when a MyBinder container is started
+
+
+
+#DO NOT WRITE ANYTHING BELOW HERE
+exec "$@"
