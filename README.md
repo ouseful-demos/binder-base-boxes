@@ -9,4 +9,6 @@ Read more: [Feeding a MyBinder Container Built From One Github Repository With t
 
 ---
 
+`graphviz`
 
+Conatainer that includes graphviz.
