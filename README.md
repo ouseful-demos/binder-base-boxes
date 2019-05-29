@@ -11,4 +11,10 @@ Read more: [Feeding a MyBinder Container Built From One Github Repository With t
 
 `graphviz`
 
-Conatainer that includes graphviz.
+Container that includes graphviz.
+
+For example, this container can be used to demo the notebook provided in https://github.com/hchasestevens/show_ast that displays the abstract syntax tree for a Python function.
+
+https://mybinder.org/v2/gh/ouseful-demos/binder-base-boxes/graphviz/?urlpath=git-pull?repo=https://github.com/hchasestevens/show_ast
+
+*NOTE: the demo notebook uses Python2 syntax print commands but a Python3 notebook kernel is used by default. Convert statements of form `print X` to `print(X)` in order to run the code cells in the demo notebook without error.*
