@@ -3,3 +3,8 @@
 #Example of loading nltk packages
 python3 -m nltk.downloader stopwords
 python3 -m nltk.downloader punkt
+
+
+#Example of loading a spacy model
+python -m spacy download en_core_web_sm
+python -m spacy download custom_ner_model
