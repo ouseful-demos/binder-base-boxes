@@ -3,3 +3,5 @@
 nbgitpuller
 
 #Base box additional Python package requirements below here
+
+graphviz
