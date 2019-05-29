@@ -1,1 +1,5 @@
 #Base box post build commands below here
+
+#Example of loading nltk packages
+python3 -m nltk.downloader stopwords
+python3 -m nltk.downloader punkt
