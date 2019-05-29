@@ -17,4 +17,8 @@ Example notebooks:
 
 https://mybinder.org/v2/gh/ouseful-demos/binder-base-boxes/music/?urlpath=git-pull?repo=https://github.com/psychemedia/showntell%26amp%3Bbranch=music
 
+Or launch into a speccific example notebook:
+
+https://mybinder.org/v2/gh/ouseful-demos/binder-base-boxes/music/?urlpath=git-pull?repo=https://github.com/psychemedia/showntell%26amp%3Bbranch=music%26amp%3BsubPath=index_music.ipynb
+
 Note that to pull from the branch we need to properly escape the `&` conjunction so that it remains within the scope of the `git-pull?` clause.
