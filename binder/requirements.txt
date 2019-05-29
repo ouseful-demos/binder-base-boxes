@@ -1,3 +1,5 @@
 #The nbgitpuller app allows MyBinder containers launched from this repo
 # to pull in notebooks from another repo
 nbgitpuller
+
+#Base box additional requirements below here
