@@ -3,3 +3,19 @@
 nbgitpuller
 
 #Base box additional Python package requirements below here
+
+#Scipy utility
+matplotlib
+numpy
+scipy
+
+#Image utility
+Pillow
+seaborn
+
+#Music packages
+music21
+abjad
+git+https://github.com/akaihola/jupyter_abc.git
+fretboard
+
