@@ -29,4 +29,14 @@ Read more: [Feeding a MyBinder Container Built From One Github Repository With t
 
 ---
 
+`authoring`
 
+This box contains various Python packages that support a riche authoring and presentation environment than in a default / unextended notebook configuration.
+
+Example notebooks:
+
+https://mybinder.org/v2/gh/ouseful-demos/binder-base-boxes/authoring/?urlpath=git-pull?repo=https://github.com/psychemedia/showntell
+
+Or launch into a speccific example notebook:
+
+https://mybinder.org/v2/gh/ouseful-demos/binder-base-boxes/music/?urlpath=git-pull?repo=https://github.com/psychemedia/showntell%26amp%3BsubPath=index_simple_authoring.ipynb
