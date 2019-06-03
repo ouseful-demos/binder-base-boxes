@@ -1,1 +1,26 @@
+#!/bin/bash
+
 #Base box post build commands below here
+
+jupyter contrib nbextension install --user
+jupyter-nbextension install rise --py --user
+jupyter-nbextension enable rise
+
+jupyter nbextension enable --py widgetsnbextension
+jupyter nbextension enable python-markdown/main
+jupyter nbextension enable hide_input/main
+jupyter nbextension enable hide_input_all/main
+jupyter nbextension enable export_embedded/main
+
+jupyter-nbextension install --py jupyter_wysiwyg --user
+jupyter nbextension enable --py jupyter_wysiwyg
+
+
+#requires pip chemview but py2 dependency?
+#jupyter nbextension install --user --py --symlink chemview
+#jupyter nbextension enable --user --py  chemview
+
+jupyter nbextension install --py --symlink --user nbmolviz
+jupyter nbextension enable --py --user nbmolviz
+
+jupyter-nbextension enable nglview --py --sys-prefix
