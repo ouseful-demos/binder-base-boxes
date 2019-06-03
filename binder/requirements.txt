@@ -12,3 +12,6 @@ jupyter-wysiwyg
 
 # Slideshow
 RISE
+
+#JupyterLab Latex extension
+jupyterlab_latex
