@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #Base box post build commands below here
 
 jupyter contrib nbextension install --user
@@ -19,3 +21,14 @@ jupyter-nbextension enable rise  --py --user
 
 jupyter-nbextension install jupyter_wysiwyg --py --user
 jupyter nbextension enable jupyter_wysiwyg  --py --user 
+
+
+# From https://github.com/binder-examples/latex/
+# run matplotlib once to generate the font cache
+python -c "import matplotlib as mpl; mpl.use('Agg'); import pylab as plt; fig, ax = plt.subplots(); fig.savefig('test.png')"
+	
+#Test that the test file exists
+test -e test.png && rm test.png
+
+jupyter labextension install @jupyterlab/latex
+jupyter lab build
