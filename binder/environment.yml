@@ -1,0 +1,29 @@
+name: chemistry-environment
+channels:
+  - conda-forge
+  - rdkit
+  - schrodinger
+  - moldesign
+  - openbabel
+dependencies:
+  - python
+  - numpy
+  - pymol
+  - rdkit
+  - moldesign
+  - openbabel 
+  - pip:
+    - jupyter_contrib_nbextensions
+    - RISE
+    - jupyter-wysiwyg
+    - ipywidgets~=7.0.0b1
+    - nglview
+    - ipymol
+    - mathchem
+    - nbmolviz==0.7.0rc9
+    - pypdb
+    - pubchempy
+    - chemspipy
+    - chembl_webresource_client
+    - py3Dmol
+    - pymatgen
