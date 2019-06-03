@@ -13,5 +13,8 @@ jupyter-wysiwyg
 # Slideshow
 RISE
 
+# Charts
+matplotlib
+
 #JupyterLab Latex extension
 jupyterlab_latex
