@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #Base box post build commands below here
 
 jupyter serverextension enable --py nbgitpuller --sys-prefix
