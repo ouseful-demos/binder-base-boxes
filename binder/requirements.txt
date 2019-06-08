@@ -4,7 +4,17 @@ nbgitpuller
 
 #Base box additional Python package requirements below here
 numpy
+
+#plotting packages
 matplotlib
+bokeh
+Pillow
+seaborn
+plotly
+
 scipy
 pandas
+
 astropy
+astroml
+astroquery
