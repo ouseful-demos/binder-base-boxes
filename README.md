@@ -37,9 +37,9 @@ Example notebooks:
 
 https://mybinder.org/v2/gh/ouseful-demos/binder-base-boxes/astronomy/?urlpath=git-pull?repo=https://github.com/colinleach/astro-Jupyter
 
-Or launch into a speccific example notebook:
+Or launch into a specific example notebook:
 
-https://mybinder.org/v2/gh/ouseful-demos/binder-base-boxes/astronomy/?urlpath=git-pull?repo=https://github.com/colinleach/astro-Jupyter%26amp%3Burlpath=gravity/4%20-%20SpiralGalaxies.ipynb
+https://mybinder.org/v2/gh/ouseful-demos/binder-base-boxes/astronomy/?urlpath=git-pull?repo=https://github.com/colinleach/astro-Jupyter%26amp%3Burlpath=astro-Jupyter/gravity/4%20-%20SpiralGalaxies.ipynb
 
 Note that to pull from the branch we need to properly escape the & conjunction so that it remains within the scope of the git-pull? clause.
 
