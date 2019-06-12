@@ -22,7 +22,7 @@ https://mybinder.org/v2/gh/ouseful-demos/binder-base-boxes/BASEBOXBRANCH/?urlpat
 To pull the contents from a particular branch of a repo `http://github.com/USER/REPO/tree/BRANCH` and launch into a particular notebook, use a MyBinder URL of the form:
 
 ```
-https://mybinder.org/v2/gh/ouseful-demos/binder-base-boxes/BASEBOXBRANCH/?urlpath=git-pull?repo=https://github.com/USER/REPO%26amp%3Bbranch=BRANCH%26amp%3Burlpath=FILENAME.ipynb
+https://mybinder.org/v2/gh/ouseful-demos/binder-base-boxes/BASEBOXBRANCH/?urlpath=git-pull?repo=https://github.com/USER/REPO%26amp%3Bbranch=BRANCH%26amp%3Bsubpath=FILENAME.ipynb
 ```
 
 Read more: [Feeding a MyBinder Container Built From One Github Repository With the Contents of Another](https://blog.ouseful.info/2019/05/08/feeding-a-mybinder-container-from-one-github-repository-with-the-contents-of-another/).
@@ -41,6 +41,6 @@ https://mybinder.org/v2/gh/ouseful-demos/binder-base-boxes/textanalysis/?urlpath
 
 Or launch into a speccific example notebook:
 
-https://mybinder.org/v2/gh/ouseful-demos/binder-base-boxes/textanalysis/?urlpath=git-pull?repo=https://github.com/psychemedia/showntell%26amp%3Bbranch=linguistics%26amp%3Burlpath=4.2.0%20Classics.ipynb
+https://mybinder.org/v2/gh/ouseful-demos/binder-base-boxes/textanalysis/?urlpath=git-pull?repo=https://github.com/psychemedia/showntell%26amp%3Bbranch=linguistics%26amp%3Bsubpath=4.2.0%20Classics.ipynb
 
 Note that to pull from the branch we need to properly escape the & conjunction so that it remains within the scope of the git-pull? clause.
