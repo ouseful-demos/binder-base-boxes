@@ -1,1 +1,10 @@
 #Base box additional Linux package requirements below here
+
+
+#Geo related
+libproj-dev
+libgeos-dev
+libgdal-dev
+gdal-bin
+proj-data
+proj-bin
