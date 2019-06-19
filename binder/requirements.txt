@@ -16,6 +16,7 @@ scipy
 pandas
 
 #Use the following for osgeo
+#This currently breaks in MyBinder launch?
 #pygdal=="`gdal-config --version`.*"
 
 astropy
