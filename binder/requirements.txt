@@ -15,7 +15,8 @@ plotly
 scipy
 pandas
 
-osgeo
+#Use the following for osgeo
+pygdal
 
 astropy
 astroml
