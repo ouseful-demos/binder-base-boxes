@@ -16,7 +16,7 @@ scipy
 pandas
 
 #Use the following for osgeo
-pygdal=="`gdal-config --version`.*"
+#pygdal=="`gdal-config --version`.*"
 
 astropy
 astroml
