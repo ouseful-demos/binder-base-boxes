@@ -1,3 +1,4 @@
 #!/bin/bash
 
 #Base box post build commands below here
+pip install pygdal=="`gdal-config --version`.*"
