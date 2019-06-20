@@ -24,6 +24,7 @@ pandas
 #Auto handle this in postbuild using
 #pip install pygdal=="`gdal-config --version`.*"
 
+proj4
 pyproj
 geos
 shapely
