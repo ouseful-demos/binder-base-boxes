@@ -21,6 +21,7 @@ dependencies:
   - poliastro
   - pysolar
   - sunpy
+  - cartopy
   - pip:
     - jupyter_contrib_nbextensions
     - RISE
