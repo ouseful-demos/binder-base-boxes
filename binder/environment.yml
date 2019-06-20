@@ -6,11 +6,13 @@ channels:
   - auto
 dependencies:
   - python
+  - nbgitpuller
   - matplotlib
   - basemap
   - scipy
   - pandas
   - astropy
+  - astroml
   - skyfield
   - aplpy
   - pyregion
@@ -22,13 +24,12 @@ dependencies:
   - pysolar
   - sunpy
   - cartopy
+  - pyproj
   - pip:
-    - jupyter_contrib_nbextensions
-    - RISE
-    - jupyter-wysiwyg
     - ipywidgets
     - pyavm
     - montage-wrapper
     - pdsimage
     - pyhorizon
     - orbitalpy
+    - watermark
