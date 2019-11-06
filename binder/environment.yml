@@ -15,15 +15,18 @@ dependencies:
   - pip:
     - jupyter_contrib_nbextensions
     - RISE
+    - nbgitpuller
+    - voila
     - jupyter-wysiwyg
-    - ipywidgets~=7.0.0b1
+    - ipywidgets#~=7.0.0b1
     - nglview
     - ipymol
     - mathchem
-    - nbmolviz==0.7.0rc9
+    - nbmolviz#==0.7.0rc9
     - pypdb
     - pubchempy
     - chemspipy
     - chembl_webresource_client
     - py3Dmol
     - pymatgen
+ 
