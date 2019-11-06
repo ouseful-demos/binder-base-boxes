@@ -2,4 +2,7 @@
 # to pull in notebooks from another repo
 nbgitpuller
 
+#Voila allows us to run interactive dashboards or documents with embedded widgets
+voila
+
 #Base box additional Python package requirements below here
