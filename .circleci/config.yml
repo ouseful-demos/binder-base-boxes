@@ -16,6 +16,8 @@ jobs:
   #     the variable REPO_NAME as the name of the repository that you
   #     want to build. That can be done in this file under build:environment,
   #     or again online in the CircleCI environment variable settings.
+  #  Note that Docker Hub orgs do not allow a '-' in the name so if the repo
+  #  has a '-' in the name, you will need to set the CONTAINER_NAME explicitly
   setup:
     environment:
       - TZ: "/usr/share/zoneinfo/America/Los_Angeles"
