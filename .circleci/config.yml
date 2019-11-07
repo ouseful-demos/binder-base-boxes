@@ -198,7 +198,6 @@ workflows:
 
       # This is where we upload the container to some final resting spot :)
       - deploy:
-          context: org-global
           requires:
             - build
           filters:
