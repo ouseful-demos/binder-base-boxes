@@ -16,6 +16,7 @@ dependencies:
     - jupyter_contrib_nbextensions
     - RISE
     - nbgitpuller
+    - jupytext
     - voila
     - jupyter-wysiwyg
     - ipywidgets #~=7.0.0b1
