@@ -30,3 +30,11 @@ Read more: [Feeding a MyBinder Container Built From One Github Repository With t
 ---
 
 
+## Autobuild
+
+A docker container based on this repo is automatically built using `repo2docker` by CircleCI.
+
+- https://github.com/binder-examples/continuous-build/
+- https://repo2docker.readthedocs.io/en/latest/howto/deploy.html
+
+The container associated with this repo should be available on dockerhub as: `ousefuldemos/binder-base-boxes:chemistry`
