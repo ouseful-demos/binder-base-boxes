@@ -16,6 +16,8 @@ dependencies:
     - jupyter_contrib_nbextensions
     - RISE
     - nbgitpuller
+    - sphinx
+    - nbsphinx
     #- jupytext
     - git+https://github.com/mwouts/jupytext.git
     - voila
