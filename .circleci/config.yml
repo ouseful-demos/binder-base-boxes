@@ -109,7 +109,8 @@ jobs:
             # If not set, use commit id as tag
             if [ ! -n "${DOCKER_TAG:-}" ]
                 then
-                    DOCKER_TAG=$(echo "${CIRCLE_SHA1}" | cut -c1-10)
+                    #DOCKER_TAG=$(echo "${CIRCLE_SHA1}" | cut -c1-10)
+                    DOCKER_TAG="${CIRCLE_BRANCH}"
             fi
             # If not set, define CONTAINER_NAME
             if [ ! -n "${CONTAINER_NAME:-}" ]
@@ -166,7 +167,8 @@ jobs:
             echo "Looking for Docker deployment options"
             if [ ! -n "${DOCKER_TAG:-}" ]
                 then
-                    DOCKER_TAG=$(echo "${CIRCLE_SHA1}" | cut -c1-10)
+                    #DOCKER_TAG=$(echo "${CIRCLE_SHA1}" | cut -c1-10)
+                    DOCKER_TAG="${CIRCLE_BRANCH}"
             fi
             # If not set, define CONTAINER_NAME
             if [[ ! -n "${CONTAINER_NAME:-}" ]]
